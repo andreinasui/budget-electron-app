@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="titlebar">
+      <div class="drag-region">
+        <div id="titlebar-text">Titlebar</div>
+      </div>
+      <div class="window-controls-grid">
+        <div class="button" id="minimize-button">
+          <img
+            class="icon"
+            src="../assets/images/icons/minus_minimize_button.svg"
+            draggable="false"
+          />
+        </div>
+        <div class="button" id="maximize-button">
+          <img
+            class="icon"
+            src="../assets/images/icons/square_maximize_button.svg"
+            draggable="false"
+          />
+        </div>
+        <div class="button" id="close-button">
+          <img
+            class="icon"
+            src="../assets/images/icons/X_close_button.svg"
+            draggable="false"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <h1>Salutare cu respect!!</h1>
+      <p>Ce facem noi aici?</p>
+    </div>
+    <script>
+      require("./renderer.js");
+    </script>
+  </body>
+</html>
